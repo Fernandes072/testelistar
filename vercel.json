@@ -16,5 +16,8 @@
         "src": "/(.*)",
         "dest": "testelistver.js"
       }
-    ]
-}
+    ],
+    "dependencies": {
+      "mysql2": "^2.3.0"
+    }
+  }
