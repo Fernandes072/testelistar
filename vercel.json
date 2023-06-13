@@ -18,6 +18,6 @@
       }
     ],
     "dependencies": {
-      "mysql2": "^2.3.0"
+      "mysql2": "^3.3.4"
     }
   }
