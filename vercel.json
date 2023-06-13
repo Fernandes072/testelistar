@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "testelistver.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/enviar-dados",
+        "methods": ["POST"],
+        "dest": "testelistver.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "testelistver.js"
+      }
+    ]
+}
